@@ -12,7 +12,7 @@ struct ListPollutionView: View {
     
     var body: some View {
         List {
-            ForEach(viewModel.pollutionList, id: \.date) { pollution in
+            ForEach(viewModel.pollutionList, id: \.dt) { pollution in
                 PollutionView(airQuality: pollution)
             }
         }
