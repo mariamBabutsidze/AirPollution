@@ -1,0 +1,37 @@
+# Xcode
+#
+# User-specific files
+.idea/
+.vscode/
+*.xcuserstate
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+xcuserdata/
+
+# Build
+build/
+DerivedData/
+
+# CocoaPods
+Pods/
+
+# Swift Package Manager
+/.build/
+Package.resolved
+
+# Carthage
+Carthage/Build/
+
+# Archives
+*.xcarchive
+
+# Device Logs
+*.log
+
+# iOS Simulator
+*.app/
+*.ipa/
+
+# Other
+.DS_Store
+*.swp
