@@ -11,7 +11,7 @@ import SwiftUI
 struct AirPollutionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListPollutionView(viewModel: ListPollutionViewModel(pollutionFetcher: FetchPollution()))
         }
     }
 }
